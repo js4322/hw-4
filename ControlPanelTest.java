@@ -21,3 +21,8 @@ class AirGauge {
         return "Measure air pressure";
     }
 }
+class ControlPanelTest {
+    public static void main(String[] args) {
+        new ControlPanel().control();
+    }
+}
